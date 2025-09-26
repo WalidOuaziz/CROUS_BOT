@@ -2,9 +2,7 @@ const express = require('express');
 const axios = require('axios');
 const nodemailer = require('nodemailer');
 const cheerio = require('cheerio');
-const twilio = require('twilio');
-const { Client } = require('whatsapp-web.js');
-const qrcode = require('qrcode-terminal');
+
 
 require('dotenv').config();
 
