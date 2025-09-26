@@ -40,7 +40,7 @@ const INTERVALLE_RENOTIFICATION = parseInt(process.env.RENOTIFICATION_INTERVAL) 
 // Marseille: https://trouverunlogement.lescrous.fr/tools/41/search?bounds=5.2694745_43.6259224_5.5063013_43.4461058
 // Paris: https://trouverunlogement.lescrous.fr/tools/41/search?bounds=2.1695755_48.7188772_2.209699_48.6755091
 // Lyon: https://trouverunlogement.lescrous.fr/tools/41/search?bounds=4.7573_45.6479_5.0919_45.8566
-const CROUS_URL = process.env.CROUS_URL
+const CROUS_URL = 'https://trouverunlogement.lescrous.fr/tools/41/search?bounds=6.7872143_47.6713057_6.8948707_47.6203259'
 
 // Extraire le nom de la ville à partir de l'URL pour l'affichage
 function getVilleFromUrl(url) {
