@@ -26,7 +26,7 @@ const INTERVALLE_RENOTIFICATION =
 
 // URL CROUS
 const CROUS_URL =
-  "https://trouverunlogement.lescrous.fr/tools/41/search?bounds=6.7872143_47.6713057_6.8948707_47.6203259";
+  "https://trouverunlogement.lescrous.fr/tools/41/search?bounds=5.2694745_43.6259224_5.5063013_43.4461058";
 
 function getVilleFromUrl(url) {
   const bounds = url.match(/bounds=([\d.,_-]+)/);
